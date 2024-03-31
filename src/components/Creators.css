@@ -1,0 +1,100 @@
+.creators {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  
+  
+  .creator-image:hover {
+    filter: brightness(1.2);
+    box-shadow: 0 0 20px rgba(138,43,226,0.6), 
+                0 0 30px rgba(12, 206, 12, 0.5), 
+                0 0 40px rgba(0,0,255,0.4);
+    transform: scale(1.1); /* increase size to 110% when mouse hovers over it */
+  }
+  
+  .creator-image {
+    width: 180px; /* default size for mobile */
+    height: 180px; /* default size for mobile */
+    object-fit: cover;
+    border-radius: 12%;
+    transition: all 0.3s ease;
+    padding: 10px;
+  }
+  
+  /* When the viewport is 768px or more (medium devices like tablets), keep the size same */
+  @media (min-width: 768px) {
+    .creator-image {
+      width: 210px;
+      height: 210px;
+    }
+  }
+  
+  /* When the viewport is 1024px or more (large devices like desktops), increase the size */
+  @media (min-width: 1024px) {
+    .creator-image {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  
+  .info-columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .info-column {
+    flex: 1;
+    padding: 10px;
+  }
+  .info-column p {
+    transition: all 0.3s ease;
+  }
+  
+  .info-column p:hover {
+    color: white; /* change text color to increase readability on hover */
+    text-shadow: 0 0 10px rgba(138,43,226,0.6), 
+                 0 0 20px rgba(0,128,0,0.5), 
+                 0 0 30px rgba(0,0,255,0.4);
+  }
+  .sectionHeadText {
+    padding: 25px; /* adjust as needed */
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-container video {
+    width: 100%; /* default size for mobile */
+    height: auto;
+  }
+  
+  /* When the viewport is 768px or more (medium devices like tablets), increase the size */
+  @media (min-width: 768px) {
+    .video-container video {
+      width: 75%; /* adjust as needed */
+    }
+  }
+  
+  /* When the viewport is 1024px or more (large devices like desktops), increase the size */
+  @media (min-width: 1024px) {
+    .video-container video {
+      width: 50%; /* adjust as needed */
+    }
+  }
+  .sectionHeadText {
+    padding: 25px; /* adjust as needed */
+    margin-bottom: 20px; /* add bottom margin to create a gap below this div */
+  }
+  
+  .info-column {
+    flex: 1;
+    padding: 10px;
+    margin-top: 20px; /* add top margin to create a gap above this div */
+  }
+  
+  
