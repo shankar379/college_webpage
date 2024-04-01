@@ -1,2 +1,4 @@
+public/desktop_pc/scene.glb filter=lfs diff=lfs merge=lfs -text
+src/components/Creators/GameVideo.mp4 filter=lfs diff=lfs merge=lfs -text
 *.glb filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
