@@ -47,16 +47,16 @@ const Branches = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction Of Branches</p>
+        <p className={styles.sectionSubText}>Introduction Of Courses </p>
         <h3 className={styles.sectionHeadText}>Rajamahendri Institute of Engineering and Technology (RIET)</h3>
       </motion.div>
 
-      <motion.p
+     {/* <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[30px] max-w-3xl leading-[30px]'
       >
-      OUR COLLEGE THIS BRANCHES
-      </motion.p>
+      
+  </motion.p>*/}
 
       <div className='mt-20 flex flex-wrap gap-10 justify-center sm:justify-start'>
         {services.map((service, index) => (
