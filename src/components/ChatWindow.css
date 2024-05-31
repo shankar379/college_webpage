@@ -1,0 +1,112 @@
+/* ChatWindow.css */
+.chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .chat-button {
+    width: 50px; /* WhatsApp icon size */
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0387a8; /* Custom color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .chat-window {
+    position: absolute;
+    bottom: 70px; /* Adjust based on icon size */
+    right: 0;
+    width: 300px; /* Mobile size window */
+    height: 500px;
+    background-color: white;
+    border-radius: 15px; /* Rounded corners for the chat window */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-header {
+    padding: 10px;
+    background-color: #f08b08; /* Custom color for header */
+    color: white;
+    text-align: right;
+    border-top-left-radius: 15px; /* Rounded corners for the header */
+    border-top-right-radius: 15px;
+  }
+  
+  .chat-body {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .chat-form {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom-left-radius: 15px; /* Rounded corners for the form */
+    border-bottom-right-radius: 15px;
+  }
+  
+  .chat-form input {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Rounded corners for the input */
+  }
+  
+  .chat-form button {
+    padding: 10px 15px;
+    background-color: #5865F2; /* Custom color for button */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer;
+  }
+  
+  /* ChatWindow.css */
+/* ... existing styles ... */
+
+.message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 80%;
+  }
+  
+  .user {
+    align-self: flex-end;
+    background-color: #dcf8c6; /* Light green background for user messages */
+  }
+  
+  .bot {
+    align-self: flex-start;
+    background-color: #ebebeb; /* Light grey background for bot responses */
+  }
+  
+  .chat-body {
+    display: flex;
+    flex-direction: column;
+    /* ... existing styles ... */
+  }
+  
+
+  /* ChatWindow.css */
+/* ... existing styles ... */
+
+.chat-intro-card {
+    padding: 20px;
+    margin: 10px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+  }
+  
